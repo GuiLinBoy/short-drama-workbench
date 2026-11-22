@@ -1,0 +1,98 @@
+/* Workbench uses available viewport height instead of a fixed minimum page height. */
+@media(min-width:721px){
+  .main-shell.is-creative{height:100dvh;min-height:0;overflow:hidden}
+  .is-creative .topbar{flex:none}
+  .is-creative main{display:flex;flex-direction:column;flex:1;min-height:0;padding:16px 20px;overflow:hidden}
+  .is-creative .project-context{flex:none;margin-bottom:10px}
+  .is-creative .view-content{flex:1;min-height:0}
+  .creative-page{height:100%;min-height:0;gap:12px}
+  .creative-heading,.creative-toolbar{flex:none}
+  .creative-workspace{min-height:0}
+  .creative-inspector-content{overscroll-behavior:contain}
+  .canvas-review-footer{max-height:40%;padding:10px 14px}
+  .canvas-review-footer .review-file-path{display:none}
+  .creative-inspector-note{padding:8px 14px;line-height:1.5}
+  .creative-inspector .review-media video{max-height:clamp(160px,36dvh,420px);width:100%;object-fit:contain}
+  .creative-inspector .review-media img{max-height:clamp(180px,40dvh,480px);object-fit:contain}
+}
+@media(min-width:721px) and (max-width:1600px){
+  :root{--sidebar:76px}
+  .sidebar{padding:22px 10px 14px}
+  .brand{padding:0 9px}.brand>span:last-child,.workspace-label,.sidebar .nav-item>span,.sidebar-bottom{display:none}
+  .sidebar nav{margin-top:30px}.sidebar .nav-item{justify-content:center;padding:14px}
+  .sidebar-more>summary>span{display:none}
+  .sidebar-more-menu{position:absolute;left:100%;bottom:0;min-width:170px;padding:8px;background:var(--panel);border:1px solid var(--border);border-radius:8px;box-shadow:var(--shadow);z-index:20}
+  .sidebar .sidebar-more-menu .nav-item>span{display:inline}.sidebar .sidebar-more-menu .nav-item{justify-content:flex-start}
+  .topbar{height:54px;padding:0 20px}
+  .is-creative main{padding:12px 16px}
+  .creative-heading h1{font-size:24px}.creative-heading p{font-size:12px}
+  .creative-heading .head-actions{gap:8px}.creative-heading .head-actions button{padding:8px 12px;font-size:12px}
+  .creative-toolbar{gap:10px}.canvas-toolbar-groups{gap:8px}.canvas-toolbar-groups .canvas-layout-actions{padding:0 8px}
+  .creative-inspector-head{padding:10px 14px}.creative-inspector-title{padding:12px 14px;gap:8px}
+  .creative-inspector-title h2{font-size:14px;line-height:1.6;overflow-wrap:anywhere}
+  .node-detail-tabs{margin:0 12px 8px}.node-detail-tabs button{min-height:32px;padding:5px 8px}
+  .creative-inspector-content{padding:12px 14px}
+}
+@media(min-width:721px) and (max-height:800px){
+  .topbar{height:48px}.is-creative main{padding-top:10px;padding-bottom:10px}
+  .is-creative .project-context{margin-bottom:7px;font-size:11px}
+  .creative-page{gap:9px}.creative-heading h1{font-size:22px}.creative-heading p{display:none}
+  .creative-toolbar select,.creative-toolbar .secondary-button{padding:6px 9px;font-size:12px}
+  .creative-inspector-head{padding:8px 12px}.creative-inspector-title{padding:10px 12px}
+  .node-detail-tabs{margin-bottom:6px}.node-detail-tabs button{min-height:30px}
+  .canvas-review-footer{padding:8px 12px;max-height:38%}
+  .canvas-review-footer .canvas-node-decision label{font-size:11px;line-height:1.5}
+  .canvas-review-footer .canvas-node-decision textarea{height:34px;min-height:34px}
+  .canvas-review-footer .review-actions{gap:6px;margin-top:7px}
+  .canvas-review-footer .review-actions button{padding:6px 9px}
+  .creative-inspector-note{font-size:10px;padding:6px 12px}
+  .node-review-context{margin-bottom:8px}
+}
+/* Narrow tablet windows stack instead of compressing two unusable columns. */
+@media(max-width:720px){
+  .main-shell.is-creative{height:auto;overflow:visible}
+  .creative-inspector-host>.creative-inspector{max-height:75dvh;min-height:380px}
+  .canvas-review-footer{max-height:40%}
+  .creative-stage{height:55dvh;min-height:300px}
+  .creative-toolbar .canvas-scope{flex-wrap:wrap}
+  .creative-toolbar .canvas-scope select{min-width:0;max-width:100%}
+  .canvas-toolbar-groups{width:100%;gap:8px}
+  .canvas-options .canvas-project-link{margin-left:0}
+}
+
+/* Two compact rows keep the workspace in focus. */
+.canvas-command-bar{display:flex;align-items:center;justify-content:space-between;gap:16px;flex:none;min-width:0}
+.canvas-command-scope{display:flex;align-items:center;gap:18px;min-width:0;flex:1}
+.is-creative .canvas-command-bar .project-context{margin:0;flex-wrap:nowrap;gap:8px;min-width:0}
+.canvas-command-bar .project-context>span:not(.sample-badge){display:none}
+.canvas-command-bar .project-context>svg{flex-shrink:0;color:var(--studio-muted,#708198)}
+.canvas-command-bar .project-context select{font-size:14px;font-weight:600;max-width:220px;min-width:0;padding:6px 22px 6px 0}
+.canvas-command-bar .canvas-scope{width:auto;gap:8px;flex-wrap:nowrap;padding-left:18px;border-left:1px solid var(--studio-border,#e2e8f2)}
+.canvas-command-bar .canvas-scope select{min-width:0;max-width:190px;font-size:12px;padding:7px 10px;height:34px}
+.canvas-command-bar .head-actions{gap:8px}
+.canvas-command-bar .head-actions button{height:34px;padding:7px 12px;font-size:12px;white-space:nowrap;gap:6px}
+.creative-page>.creative-toolbar{justify-content:flex-start;flex:none;min-height:32px}
+.creative-toolbar .canvas-toolbar-groups{flex:1;width:100%;gap:12px;flex-wrap:nowrap}
+.creative-toolbar .canvas-project-link{margin-left:auto}
+.creative-toolbar .canvas-layout-actions{width:auto;flex-wrap:nowrap}
+.creative-toolbar .secondary-button,.creative-toolbar .canvas-display-settings>summary{padding:6px 10px;font-size:12px;min-height:32px;white-space:nowrap}
+@media(min-width:721px){.creative-page{gap:8px}.canvas-command-bar .project-context select{max-width:210px}}
+@media(min-width:721px) and (max-width:1100px){
+  .canvas-command-scope{gap:10px}.canvas-command-bar{gap:10px}
+  .canvas-command-bar .project-context select{max-width:170px;font-size:13px}
+  .canvas-command-bar .canvas-scope{padding-left:10px;gap:6px}
+  .canvas-command-bar .canvas-scope select{max-width:148px;padding-inline:7px}
+  .canvas-command-bar .head-actions button{padding-inline:9px}
+}
+@media(max-width:850px){
+  .canvas-command-bar{flex-wrap:wrap;gap:8px}.canvas-command-scope{flex-wrap:wrap;gap:8px}
+  .canvas-command-bar .canvas-scope{padding-left:0;border:0}
+  .creative-toolbar .canvas-toolbar-groups{flex-wrap:wrap;gap:8px}
+  .creative-toolbar .canvas-project-link{margin-left:auto}
+}
+@media(max-width:720px){
+  .canvas-command-scope{flex-basis:100%}.canvas-command-bar .head-actions{margin-left:auto}
+  .canvas-command-bar .project-context{width:100%}.canvas-command-bar .canvas-scope{width:100%}
+  .canvas-command-bar .canvas-scope select{max-width:none}.canvas-command-bar .canvas-scope select:last-child{flex:1}
+  .creative-toolbar .canvas-layout-actions{padding-inline:0;border:0}
+}

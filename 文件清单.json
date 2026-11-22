@@ -1,0 +1,1127 @@
+{
+  "version": 1,
+  "created": "2026-11-18T22:09:32.842886",
+  "purpose": "workflow-deployment-no-production-data",
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "bytes": 735,
+      "sha256": "9432a42bdabd64ea0b11e9f38dd35805fc349c21cab6a9b3da054ac20391c438"
+    },
+    {
+      "path": "启动画布.cmd",
+      "bytes": 91,
+      "sha256": "7be640e6aaf031bc58767eb99d817ca840ccc2468d6d01a525ba81555487117c"
+    },
+    {
+      "path": "检查环境.cmd",
+      "bytes": 116,
+      "sha256": "b5799533252a0f5418f6d18347369f8dd83e3fc3cce835bac7b91f5e74a35566"
+    },
+    {
+      "path": "漫剧/作品/说明.md",
+      "bytes": 70,
+      "sha256": "4df6d5b5b200a34b6f59201e4d96399fd2b5481fd8b79335f65d88afb050393b"
+    },
+    {
+      "path": "漫剧/全局设置.json",
+      "bytes": 172,
+      "sha256": "7c68c75c49f84bd5454080677eb17cb06de5376aec38070257c76a3b878fb94b"
+    },
+    {
+      "path": "漫剧/曲库/说明.md",
+      "bytes": 79,
+      "sha256": "45eec29fedccc360347068aa002d5bace761fe0f23287e1c627445647e6eba2e"
+    },
+    {
+      "path": "漫剧/短剧工具/bots/剪辑/SKILL.md",
+      "bytes": 5963,
+      "sha256": "ec14e9dfececf302442a448b5418c42f3bab14a78d0caa5e65fa2c64f04bbe2a"
+    },
+    {
+      "path": "漫剧/短剧工具/bots/总导演/SKILL.md",
+      "bytes": 10683,
+      "sha256": "d2f685ff893298336c70498a71ed276530751e6fafeac56fffe4122a55939035"
+    },
+    {
+      "path": "漫剧/短剧工具/bots/摄影/SKILL.md",
+      "bytes": 4624,
+      "sha256": "4b386a33d474c947635ea6a816ce058b77cde0fec24330750d307de65c49b495"
+    },
+    {
+      "path": "漫剧/短剧工具/bots/编剧/SKILL.md",
+      "bytes": 5085,
+      "sha256": "8993d235156dd567d07229def744d86c0e58a94a1d36adf1e6ee26abd3989bbe"
+    },
+    {
+      "path": "漫剧/短剧工具/bots/美术/SKILL.md",
+      "bytes": 3763,
+      "sha256": "40f35ede89837fb7219aebdbdf2224d15a607125548cb76daeff7bb040608330"
+    },
+    {
+      "path": "漫剧/短剧工具/Bot分工与技能说明.md",
+      "bytes": 2926,
+      "sha256": "96501eb6e1a40da73d52f8fadbe8e1588f6eda77994ab430a4a62a03316de4a3"
+    },
+    {
+      "path": "漫剧/短剧工具/canvas/.config/npm-global.conf",
+      "bytes": 23,
+      "sha256": "68069ad4ecabf565f5052da1395bfe2bfea4a81a05807735ddf060ff9efcb6cc"
+    },
+    {
+      "path": "漫剧/短剧工具/canvas/.config/npm-user.conf",
+      "bytes": 23,
+      "sha256": "68069ad4ecabf565f5052da1395bfe2bfea4a81a05807735ddf060ff9efcb6cc"
+    },
+    {
+      "path": "漫剧/短剧工具/canvas/.npmrc",
+      "bytes": 80,
+      "sha256": "46a5b3c19276def3b127365cd3f5c88d453aee879155f83f4509aae9cab81236"
+    },
+    {
+      "path": "漫剧/短剧工具/canvas/A风格改造验收.md",
+      "bytes": 4434,
+      "sha256": "9654ab0be2e1997fb21963773da95c1a273b8e7326e6e162bf5a90fc5c5c4244"
+    },
+    {
+      "path": "漫剧/短剧工具/canvas/dist/assets/index-BB6dPY_r.css",
+      "bytes": 133072,
+      "sha256": "caf913f6437326b3562b3ee6c6802bb989d2866cdfbe29d9b1ea7df0790c269f"
+    },
+    {
+      "path": "漫剧/短剧工具/canvas/dist/assets/index-LqrZME0q.js",
+      "bytes": 514995,
+      "sha256": "99f26f46445e1ccd8918b31594213fa662d2ea02c0567e73a7eb6b9fa9d65bd8"
+    },
+    {
+      "path": "漫剧/短剧工具/canvas/dist/index.html",
+      "bytes": 584,
+      "sha256": "8b2b46fbf42c21d7839cdf396689d4c91ccd0e3bdfbe51cd1833dec96eaafda7"
+    },
+    {
+      "path": "漫剧/短剧工具/canvas/index.html",
+      "bytes": 486,
+      "sha256": "fbbf56899bda587bad71d5c4ffb62a666898c28f242f9131acfdf1f69df8730a"
+    },
+    {
+      "path": "漫剧/短剧工具/canvas/package-lock.json",
+      "bytes": 67723,
+      "sha256": "9963c6d61359861583af70e024c6d2f8cff9c9ba0d4affcef8b441c939be22f9"
+    },
+    {
+      "path": "漫剧/短剧工具/canvas/package.json",
+      "bytes": 884,
+      "sha256": "1d4838b3631a2de8c3844295218ba2ce8affb47f49bc40cb2458d9475776f437"
+    },
+    {
+      "path": "漫剧/短剧工具/canvas/README.md",
+      "bytes": 8513,
+      "sha256": "632379f9efb4553b3074ec7c874b613435dda2ef0738a77e5e2a61077f740c5e"
+    },
+    {
+      "path": "漫剧/短剧工具/canvas/server.py",
+      "bytes": 48256,
+      "sha256": "f81cc3d9c6270b8bb43d4c77622378a763f1a399cda7c5fc8c97809c0ea59df2"
+    },
+    {
+      "path": "漫剧/短剧工具/canvas/src/canvas-layout.js",
+      "bytes": 3951,
+      "sha256": "b49ab7bb5ea224610319f75d601956cfbd51e81bfbf0efa3b2b61fdd9591db5a"
+    },
+    {
+      "path": "漫剧/短剧工具/canvas/src/canvas-model.js",
+      "bytes": 9731,
+      "sha256": "8e385ec37bd5914d4baf2ff9ae82bb777fa47d68c8fb8e561e7d68faac5b776c"
+    },
+    {
+      "path": "漫剧/短剧工具/canvas/src/canvas-presentation.js",
+      "bytes": 1202,
+      "sha256": "1d4cda0a7350bbe51a1157327c8e560e84d50a4c4f5f5ff8784808cae5685ecf"
+    },
+    {
+      "path": "漫剧/短剧工具/canvas/src/canvas-reviews.js",
+      "bytes": 10309,
+      "sha256": "2ec95d114b54cea01e6039460fadc3b917810ac0b1dbf785f1a80353e26216ab"
+    },
+    {
+      "path": "漫剧/短剧工具/canvas/src/canvas-storyboards.js",
+      "bytes": 3216,
+      "sha256": "3791f839b2b46ac0cf92e2c60d1e89a7cf6aa59deae635cadad554a833db4c19"
+    },
+    {
+      "path": "漫剧/短剧工具/canvas/src/clip-timing.js",
+      "bytes": 1412,
+      "sha256": "485e449bef677d645b8e8734cbc79540da1ecc9255387594469ac90e2abae26b"
+    },
+    {
+      "path": "漫剧/短剧工具/canvas/src/creative-canvas.jsx",
+      "bytes": 30325,
+      "sha256": "22871660b7ef65ce936b1b9581649db3cffa4de895eb6bca215bd61f05cf7511"
+    },
+    {
+      "path": "漫剧/短剧工具/canvas/src/creative-edge.jsx",
+      "bytes": 1878,
+      "sha256": "37b2dbea05a311841b4f15a739a9b18d1e04f72b2a6382029cfe95226139492a"
+    },
+    {
+      "path": "漫剧/短剧工具/canvas/src/deferred-media.js",
+      "bytes": 1315,
+      "sha256": "eeefa2ea8c52b71aaebb64bba3adac37ae08f379a65ed1e627738160c491b2a5"
+    },
+    {
+      "path": "漫剧/短剧工具/canvas/src/hidden-nodes.js",
+      "bytes": 680,
+      "sha256": "9831a7a17f1cd6028406f63d0a8bc8472635625c6497f24b26bc0ad6aca35e05"
+    },
+    {
+      "path": "漫剧/短剧工具/canvas/src/image-viewer.jsx",
+      "bytes": 6345,
+      "sha256": "3c970887282b77f4535b67fc510ea421a1fd3b0dd9a26dc8e6958d891863ca62"
+    },
+    {
+      "path": "漫剧/短剧工具/canvas/src/main.jsx",
+      "bytes": 47465,
+      "sha256": "6d9f07a0cab1871265b376a2ad7373e407cb878183557d82b405d132209a87c7"
+    },
+    {
+      "path": "漫剧/短剧工具/canvas/src/media-queue.js",
+      "bytes": 885,
+      "sha256": "857a5027297f7b6c0f9fa3f8af353209bd176cb17cd1163fb66d62d8b05c5748"
+    },
+    {
+      "path": "漫剧/短剧工具/canvas/src/node-review.jsx",
+      "bytes": 5742,
+      "sha256": "9be788f8c14a95c5f129b21a4bb1c44aeb1dc0b9b38ab5d52f8813c65e3ca6f7"
+    },
+    {
+      "path": "漫剧/短剧工具/canvas/src/phone-preview.css",
+      "bytes": 5111,
+      "sha256": "edcc7276a8813f23d211a6a925c00f4039044aaeb67e1153dd079c0b682f97f6"
+    },
+    {
+      "path": "漫剧/短剧工具/canvas/src/phone-preview.jsx",
+      "bytes": 6388,
+      "sha256": "81740885c9639907cf99c0064b4d84a4ea22f20c3f97a99d46a7de1e484b6a91"
+    },
+    {
+      "path": "漫剧/短剧工具/canvas/src/project-data.js",
+      "bytes": 435,
+      "sha256": "0f33840904cc83c099893a4a388dc8c73000eac5f081b24142086ed3ddb3ebbf"
+    },
+    {
+      "path": "漫剧/短剧工具/canvas/src/reference-previews.jsx",
+      "bytes": 1995,
+      "sha256": "fed1a9dc00edf5eeeedfd2609cec261211babc871f892d455c109ac0ab44aa97"
+    },
+    {
+      "path": "漫剧/短剧工具/canvas/src/resizable-workspace.jsx",
+      "bytes": 3077,
+      "sha256": "571451b7c3f5847bb0a2c061a2040a0000e6bf3efea03f883ce175ca5f113821"
+    },
+    {
+      "path": "漫剧/短剧工具/canvas/src/responsive-layout.js",
+      "bytes": 539,
+      "sha256": "ee32a0210a479d5aed535c0831e45b4263effbfc9a8502707702e5da315c693a"
+    },
+    {
+      "path": "漫剧/短剧工具/canvas/src/responsive.css",
+      "bytes": 6685,
+      "sha256": "5f0664bbca61403f9be1b44f4debbc0eedc7918a909e4423e549a84daa90b51e"
+    },
+    {
+      "path": "漫剧/短剧工具/canvas/src/review-board.jsx",
+      "bytes": 17233,
+      "sha256": "e02b13f3caa9377c9c95c707747cfd65f26cd3712da976d4c9d9962ce60064e4"
+    },
+    {
+      "path": "漫剧/短剧工具/canvas/src/review-content.jsx",
+      "bytes": 5654,
+      "sha256": "e5548f20074d954b269c301825a442fceb1a75ec1224b80b6fe9ab327e15a6a1"
+    },
+    {
+      "path": "漫剧/短剧工具/canvas/src/review-model.js",
+      "bytes": 3270,
+      "sha256": "09bc76da7a812e130b8079b9e4355521e437cbdc66d9af6a79495bd07036838b"
+    },
+    {
+      "path": "漫剧/短剧工具/canvas/src/review-presentation.js",
+      "bytes": 3352,
+      "sha256": "56c4ae1f32a4b6d3dd80e82c30f7dfc5977a5ce40cea9db884ba57de4b29d590"
+    },
+    {
+      "path": "漫剧/短剧工具/canvas/src/review-text.jsx",
+      "bytes": 2323,
+      "sha256": "50001607730b12b3a6a7ad5f0cfbb5f7637b2cf77e79e1d1c9af828df179ea00"
+    },
+    {
+      "path": "漫剧/短剧工具/canvas/src/review.css",
+      "bytes": 14653,
+      "sha256": "e28018fe71674c5cb72f88e82c75547ef8ad151ba616492595bb923019f42dac"
+    },
+    {
+      "path": "漫剧/短剧工具/canvas/src/snapshot-client.js",
+      "bytes": 3899,
+      "sha256": "53925d1953860f919f5d65fbca0bca8237a3a202e594da9eac57bfa05108501c"
+    },
+    {
+      "path": "漫剧/短剧工具/canvas/src/style.css",
+      "bytes": 42100,
+      "sha256": "2928eebdd527c6e5d769cdf9cea5690434ea472d7c9411442bec5057f7878e40"
+    },
+    {
+      "path": "漫剧/短剧工具/canvas/src/theme.css",
+      "bytes": 11696,
+      "sha256": "65bc19f0d8672026e866ca8bc4ea11977a129a91731308b61522454ea8bf0fe2"
+    },
+    {
+      "path": "漫剧/短剧工具/canvas/src/theme.js",
+      "bytes": 470,
+      "sha256": "267286f6070aa99d15c4efe045f50420c6539d9dfd747faa53fb2f1fecdbaa3a"
+    },
+    {
+      "path": "漫剧/短剧工具/canvas/src/use-snapshot.js",
+      "bytes": 1025,
+      "sha256": "849ffdcc0d7f21e64b99aaa6991400ebba81cd589e055854e9ef6d0bf7e2567e"
+    },
+    {
+      "path": "漫剧/短剧工具/canvas/src/video-thumbnail.jsx",
+      "bytes": 2391,
+      "sha256": "ed032dc81e3bec9c1d08d0aa235d05831dcf653e6c370240480246855fcd30d5"
+    },
+    {
+      "path": "漫剧/短剧工具/canvas/src/work-routes.js",
+      "bytes": 1207,
+      "sha256": "ac2f4fdd141bf25ba96b12698ca90bd7af77d3a095191a55220caa749a24e714"
+    },
+    {
+      "path": "漫剧/短剧工具/canvas/src/workspace-home.css",
+      "bytes": 2259,
+      "sha256": "d79f839a7f1018bd26225dc1493ee926a7a0e7f9e647ec4eeb5e9446a3a1409a"
+    },
+    {
+      "path": "漫剧/短剧工具/canvas/src/workspace-navigation.jsx",
+      "bytes": 2207,
+      "sha256": "fa744f1407635e9153a5cac241f201b57925f29a1315b55fd08a81a298cb5524"
+    },
+    {
+      "path": "漫剧/短剧工具/canvas/src/workspace.css",
+      "bytes": 41586,
+      "sha256": "f723f4fdbac525649ee7b046f5df515e02ac78b44f544d09f15534c986747e6a"
+    },
+    {
+      "path": "漫剧/短剧工具/canvas/start-review.cmd",
+      "bytes": 65,
+      "sha256": "8a1b3c1c473a2ca5449d7c22fe64cb38a51dfa195e139af774f6b609ec9575de"
+    },
+    {
+      "path": "漫剧/短剧工具/canvas/start.cmd",
+      "bytes": 328,
+      "sha256": "49a34cd5befc7086edefcf575bde43f1640ca6eecf5c2a7eb12058535cb26ac6"
+    },
+    {
+      "path": "漫剧/短剧工具/canvas/test_notifications.py",
+      "bytes": 15208,
+      "sha256": "38e01f77640f6bd166e568b34b163267b8b4e246985209e299bbb2325d0bfbcd"
+    },
+    {
+      "path": "漫剧/短剧工具/canvas/test_reviews.py",
+      "bytes": 43089,
+      "sha256": "bcc3d391d1324f3b911b43b4fa932d3a1ab4e4defa147c5990b7efa8ea86e29c"
+    },
+    {
+      "path": "漫剧/短剧工具/canvas/test_server.py",
+      "bytes": 18387,
+      "sha256": "b0cc94d7583191fcfc4f4f4e3efe2f0731255f0b6ff856038ced081109882693"
+    },
+    {
+      "path": "漫剧/短剧工具/canvas/tests/canvas-layout.test.mjs",
+      "bytes": 7951,
+      "sha256": "f501922f22ed14c50d06c9b2bdf21259b0fa5f340959202a0235645695b890e4"
+    },
+    {
+      "path": "漫剧/短剧工具/canvas/tests/canvas-media.test.mjs",
+      "bytes": 3707,
+      "sha256": "fe8ef86bfc8635e642918ad495259256dad387cdcdf4e75e60b8cc8e5f86caf7"
+    },
+    {
+      "path": "漫剧/短剧工具/canvas/tests/canvas-model.test.mjs",
+      "bytes": 8478,
+      "sha256": "29c66af93a075a4e60a84b50b77f28681dab8228250a4364614428d04b72a580"
+    },
+    {
+      "path": "漫剧/短剧工具/canvas/tests/canvas-reviews.test.mjs",
+      "bytes": 19173,
+      "sha256": "d356a77ad889c63206f3094ab61d62fc64343fbe276f38662249ffd760346678"
+    },
+    {
+      "path": "漫剧/短剧工具/canvas/tests/notification-controller.test.mjs",
+      "bytes": 3750,
+      "sha256": "acaa988aa64f6977c89bd82f50d17c0c7f0c97c06370aaefb791d5f8e3dc877b"
+    },
+    {
+      "path": "漫剧/短剧工具/canvas/tests/review-content.test.mjs",
+      "bytes": 6621,
+      "sha256": "57551ceb62451b0ff77977631db95fbbe7be68f52839143a6ed29bc51c26775d"
+    },
+    {
+      "path": "漫剧/短剧工具/canvas/tests/review-model.test.mjs",
+      "bytes": 5911,
+      "sha256": "4597850925fb23992492458d8b7d81ab472dbd7c0049d3a14441133a658f144c"
+    },
+    {
+      "path": "漫剧/短剧工具/canvas/tests/snapshot-client.test.mjs",
+      "bytes": 5823,
+      "sha256": "ee88d7f83329cf0e32e450b88b0d934fa85c8927b02f3e88a94b407c29ad1a5c"
+    },
+    {
+      "path": "漫剧/短剧工具/canvas/tests/work-routes.test.mjs",
+      "bytes": 1626,
+      "sha256": "15ad4968793dde9f80e79c40d708dc66c5a41cd5c5547830041af4753ced7213"
+    },
+    {
+      "path": "漫剧/短剧工具/canvas/tests/workspace-navigation.test.mjs",
+      "bytes": 2325,
+      "sha256": "199a14447fe67c602ef7b3c23f4831d78c2b4f340dfcb470bea012042bd57c1e"
+    },
+    {
+      "path": "漫剧/短剧工具/canvas/vite.config.js",
+      "bytes": 167,
+      "sha256": "1e40a82b3332abbd71136beb4ba1acf0f2437bf6d114ab163db711ff752abc95"
+    },
+    {
+      "path": "漫剧/短剧工具/canvas/取消暂缓与审核操作验收-20261108.md",
+      "bytes": 2492,
+      "sha256": "44b6f02f487f5385fe8f80a548ed40127411d80d9ef8c0c060095b788da59ca9"
+    },
+    {
+      "path": "漫剧/短剧工具/canvas/固定端口验收-20261108.md",
+      "bytes": 987,
+      "sha256": "d5104eb23cccfe10a96f746327c83591767164353aafb1713c652bf5099073dd"
+    },
+    {
+      "path": "漫剧/短剧工具/canvas/图片放大预览验收.md",
+      "bytes": 1570,
+      "sha256": "0061b64df81392ff86bbcb3a7d498db888e0a4698d87143d60abe91914d68bbe"
+    },
+    {
+      "path": "漫剧/短剧工具/canvas/提示词与制作参数验收.md",
+      "bytes": 2185,
+      "sha256": "b0449d53f4dbddafde8e20d87be569e7696ae6c749854b8bf14a0f270000ca3f"
+    },
+    {
+      "path": "漫剧/短剧工具/canvas/画布审核功能验收-20261108.md",
+      "bytes": 3499,
+      "sha256": "efa37f1566994ffb4cb156ef1adb1205aead113cfd17d20c1b282acc45066de2"
+    },
+    {
+      "path": "漫剧/短剧工具/canvas/画布批量通知验收-20261108.md",
+      "bytes": 2504,
+      "sha256": "75680c578a6d4fff846d4f66d15c6d60b7265f50d1e923069d1965f0cbac915a"
+    },
+    {
+      "path": "漫剧/短剧工具/canvas/画布操作增强验收.md",
+      "bytes": 3182,
+      "sha256": "c04486952dfcc0e29cf5a3240695073b574e6e612d1b039398c821ebfa8555e3"
+    },
+    {
+      "path": "漫剧/短剧工具/canvas/连线细节优化.md",
+      "bytes": 1638,
+      "sha256": "44192c8c7bba01df7ca66229f776c565bf8e192b92f3dad7e0c1ffe82923c08c"
+    },
+    {
+      "path": "漫剧/短剧工具/canvas/验收记录.md",
+      "bytes": 4876,
+      "sha256": "95af692ad9681a2e76b018719b40c63004cae3af0867b21ccd92da85681658ca"
+    },
+    {
+      "path": "漫剧/短剧工具/genres/3d-guoman.md",
+      "bytes": 3883,
+      "sha256": "a5547e9f8b36e88db622957e5261013202e4ada0e27c3200fe70b08472ea86a2"
+    },
+    {
+      "path": "漫剧/短剧工具/genres/live-action.md",
+      "bytes": 5761,
+      "sha256": "be05a6ed4f1a47173121c4f33091a8ed1b5e1dddbf2df446bc1039f3c3a50c71"
+    },
+    {
+      "path": "漫剧/短剧工具/genres/README.md",
+      "bytes": 1948,
+      "sha256": "84dd65a75462629f2a8d095cb584c44316cd08603242f29996bf11270fdead75"
+    },
+    {
+      "path": "漫剧/短剧工具/genres/urban.md",
+      "bytes": 3418,
+      "sha256": "1097b14222fe158216bcbb0cbae5d76e947bdc26917884ae9490ac98ea17609b"
+    },
+    {
+      "path": "漫剧/短剧工具/OVERRIDES.md",
+      "bytes": 16914,
+      "sha256": "cd30012d8e3e7b6e7182b1d65e5865e3eb7eee2eea7dd089b1251b45047b073e"
+    },
+    {
+      "path": "漫剧/短剧工具/profiles/nexorai.json",
+      "bytes": 1626,
+      "sha256": "6fa620ef6f160bc1c7e911885f0e884efa3b53c5ab9af36bcfc5fed0d3bccc20"
+    },
+    {
+      "path": "漫剧/短剧工具/skill/references/asset-management.md",
+      "bytes": 1042,
+      "sha256": "aa5e93974d90c9213a6bef5e20c7f2b3758c62de1c1ee4d6fc595bdd70686514"
+    },
+    {
+      "path": "漫剧/短剧工具/skill/references/character-design.md",
+      "bytes": 1490,
+      "sha256": "34f56e1d7905e4852b8d90b84d799107d8b715835fe2da36b44798ad8e7f4e4c"
+    },
+    {
+      "path": "漫剧/短剧工具/skill/references/character-prompt-template.md",
+      "bytes": 680,
+      "sha256": "920086a2fc80bd46a08498fc756824a4f8564e65de3f2da3120a561021509fe1"
+    },
+    {
+      "path": "漫剧/短剧工具/skill/references/continuity.md",
+      "bytes": 978,
+      "sha256": "1f261372f990270006fcb6e8e3f60d9fc732ba128c0df867a780ed1d734c84ea"
+    },
+    {
+      "path": "漫剧/短剧工具/skill/references/document-conversion.md",
+      "bytes": 675,
+      "sha256": "9825a3d2055e14735c4cda2c4b8bddeafe522927cd3fd6cde12443e614d246a2"
+    },
+    {
+      "path": "漫剧/短剧工具/skill/references/dreamina-cli.md",
+      "bytes": 3474,
+      "sha256": "116fa62434517f4cad0b72808f6b5f22d0be0fb0da561373dcb539c44986afff"
+    },
+    {
+      "path": "漫剧/短剧工具/skill/references/dreamina-generation.md",
+      "bytes": 2546,
+      "sha256": "cfbd4d3be5ceab102dbfdce9d428db0c22d564c7e948e58d0bd2ad699e9b5c81"
+    },
+    {
+      "path": "漫剧/短剧工具/skill/references/film-prompt-guide.md",
+      "bytes": 1008,
+      "sha256": "e8d6f317caf715626fe20af00d8a76e4c1daf3a8ef5ef2d4325ec7a3ef8a475c"
+    },
+    {
+      "path": "漫剧/短剧工具/skill/references/legacy-continuity.md",
+      "bytes": 887,
+      "sha256": "ad6d5e0ed93835af4af750662f27ed82518eb6781617509d31438bc99dab0fa7"
+    },
+    {
+      "path": "漫剧/短剧工具/skill/references/names-and-sources.md",
+      "bytes": 828,
+      "sha256": "933abaf9f8c78e4c97ab7000b4d5d170d08c7430836f2ce17343f908792ddcbd"
+    },
+    {
+      "path": "漫剧/短剧工具/skill/references/novel-reading.md",
+      "bytes": 1604,
+      "sha256": "bbde902a8fd7ec3e34facd50c9643bd18176ef878bb6dbb699ec4756a06d59d2"
+    },
+    {
+      "path": "漫剧/短剧工具/skill/references/output-formats.md",
+      "bytes": 1578,
+      "sha256": "4cbc4ba9db99ef2db2c0a3b46f2a2e1f205aacc4acbd46b61b164714509b2a19"
+    },
+    {
+      "path": "漫剧/短剧工具/skill/references/post-production.md",
+      "bytes": 10618,
+      "sha256": "2c15ec470610cad6bfe35214866bedf77f04ad8e550fea382100daacfc1b3b2a"
+    },
+    {
+      "path": "漫剧/短剧工具/skill/references/project-schema.md",
+      "bytes": 3613,
+      "sha256": "b2e2c4ceec1257dcdfb6b6e8b925c48a02113b46e4b62e54b755e4ea64e07d66"
+    },
+    {
+      "path": "漫剧/短剧工具/skill/references/prop-scene-design.md",
+      "bytes": 1256,
+      "sha256": "bc79f6731cd88fa1f5e9a47d257c7bbc6cfaa199bafc1ebd0aefc058b0dbce7d"
+    },
+    {
+      "path": "漫剧/短剧工具/skill/references/quality-checks.md",
+      "bytes": 1567,
+      "sha256": "f50934844ac6b9428ecf54f56d547bb307e3cc6b5d6f84dd274860bef74a922a"
+    },
+    {
+      "path": "漫剧/短剧工具/skill/references/storyboard-format.md",
+      "bytes": 669,
+      "sha256": "d2eb2637653d8071319a585ed7ff15a5c96294ee8c78d014015a6fe88af39932"
+    },
+    {
+      "path": "漫剧/短剧工具/skill/references/storyboard.md",
+      "bytes": 1370,
+      "sha256": "d5c997afd42de5743efc112e72257f6bca4186419b3121a47b4feaff2f15a820"
+    },
+    {
+      "path": "漫剧/短剧工具/skill/references/style-design.md",
+      "bytes": 799,
+      "sha256": "c314912d3d4d199fce2b98e774404f2a74cf42407aae73cdd7d7dde564f4bbbe"
+    },
+    {
+      "path": "漫剧/短剧工具/skill/references/video-processing.md",
+      "bytes": 1079,
+      "sha256": "e85467994c5096fdcc74f574ad4297f1a751b6a2dda8110fcde8b20993090293"
+    },
+    {
+      "path": "漫剧/短剧工具/skill/references/video-prompts.md",
+      "bytes": 1376,
+      "sha256": "0230892d7a0f8d76c2ed295fc59ed2bf985edc88f4c8ab1788433cbe9e7b7689"
+    },
+    {
+      "path": "漫剧/短剧工具/skill/references/workflow.md",
+      "bytes": 3417,
+      "sha256": "bc321e1d122ab786ca419ce32a18b1c7c1a2b077874815d0836fc7b2def41fcf"
+    },
+    {
+      "path": "漫剧/短剧工具/skill/scripts/assemble_clips.py",
+      "bytes": 4510,
+      "sha256": "d90587a347f0c9ee3e8c46e5dbce5ced19184262bdff31b1be5b18e26996b654"
+    },
+    {
+      "path": "漫剧/短剧工具/skill/scripts/convert.py",
+      "bytes": 2370,
+      "sha256": "4c540eb15837b1ae507d3fadaf7ca706708571dd6b7c02c627ac37758403df72"
+    },
+    {
+      "path": "漫剧/短剧工具/skill/scripts/extract_ending_frame.py",
+      "bytes": 16432,
+      "sha256": "9b4c8f0da3d1361e47b1e27fb5ef63e9960778636613aa0cfd7761c1e257e2f4"
+    },
+    {
+      "path": "漫剧/短剧工具/skill/scripts/prepare_submission.py",
+      "bytes": 3435,
+      "sha256": "ddeb9f91c2b45e0f608a6cac5caa6e23829642bc067fb8189fbf452079e99d63"
+    },
+    {
+      "path": "漫剧/短剧工具/skill/scripts/read_novel.py",
+      "bytes": 1132,
+      "sha256": "acb8ebc77bc0d170513cc4674d29bd80abdc6d48696817212184a48b0fd62a8f"
+    },
+    {
+      "path": "漫剧/短剧工具/skill/scripts/submit_task.py",
+      "bytes": 4712,
+      "sha256": "06c7b69dc8cd2afaa9d257aee40eb8a7f00611bf1ce788b20bfcf286e9c3e58b"
+    },
+    {
+      "path": "漫剧/短剧工具/skill/scripts/validate_project.py",
+      "bytes": 4570,
+      "sha256": "29345ec3d3a2cdac5392f8ae5a1cdf68766aadf6887f0f01f4b0bafdc14e7cac"
+    },
+    {
+      "path": "漫剧/短剧工具/skill/SKILL.md",
+      "bytes": 6753,
+      "sha256": "3b27385456368c112d328c796a17adda29f342f1e04584b11a84e7bc6adc02b0"
+    },
+    {
+      "path": "漫剧/短剧工具/skills/minimax-h3-video/references/api-and-tasks.md",
+      "bytes": 9502,
+      "sha256": "a0be7718fb086ea32ae7f67decbc09808e1683c4aa29b9a4620634fa22f1ff7f"
+    },
+    {
+      "path": "漫剧/短剧工具/skills/minimax-h3-video/references/audio.md",
+      "bytes": 20224,
+      "sha256": "7d49e516fab2ddc7c7c7bb7e287234bf2aafefde85d9b43783640dbb60d25c72"
+    },
+    {
+      "path": "漫剧/短剧工具/skills/minimax-h3-video/references/context-ir-and-skills.md",
+      "bytes": 4588,
+      "sha256": "fe76c27c008a6204b80c2b75a7ed4f83be533b9159eb8b01a90452d433ead1a0"
+    },
+    {
+      "path": "漫剧/短剧工具/skills/minimax-h3-video/references/examples.md",
+      "bytes": 19004,
+      "sha256": "a269ac9d79803f860e9fa59b837c2a61566745c9ed48e64c9d157d2ee066ed0b"
+    },
+    {
+      "path": "漫剧/短剧工具/skills/minimax-h3-video/references/mode-and-preflight.md",
+      "bytes": 5384,
+      "sha256": "51cad4fa4fef402b9b507903fcfd85bb413b6bca9435ebc663e6c19e155f78b9"
+    },
+    {
+      "path": "漫剧/短剧工具/skills/minimax-h3-video/references/pitfalls.md",
+      "bytes": 13341,
+      "sha256": "6ab02e95f67f78a4b12ca299b22891030273ea3979d0354708ae152b74a8a5ce"
+    },
+    {
+      "path": "漫剧/短剧工具/skills/minimax-h3-video/references/prompt-format.md",
+      "bytes": 8701,
+      "sha256": "8ea8403a8fb8e740ea9bd636be0b3ad770f01b99c468702776c6cef42bb40d21"
+    },
+    {
+      "path": "漫剧/短剧工具/skills/minimax-h3-video/references/storyboard.md",
+      "bytes": 10049,
+      "sha256": "8c166961dd270325883505fce5962d3e774c40b790919f5f32a1025e62d93d49"
+    },
+    {
+      "path": "漫剧/短剧工具/skills/minimax-h3-video/references/visual-and-camera.md",
+      "bytes": 13724,
+      "sha256": "b7d656deda570c38a42bde1eaed5ee6e3d177b1c36bcc6ea731429514b2362e2"
+    },
+    {
+      "path": "漫剧/短剧工具/skills/minimax-h3-video/scripts/h3_task.py",
+      "bytes": 40828,
+      "sha256": "1916b48b808ed0f5fd2a9bef079de36d764b2470b1cad44ecf856b81ab92a9a2"
+    },
+    {
+      "path": "漫剧/短剧工具/skills/minimax-h3-video/scripts/test_h3_task.py",
+      "bytes": 33450,
+      "sha256": "17b9939db58d99405ceac358a85bb7e1ec48064dfc2062d0fda642ca3ff2c9bd"
+    },
+    {
+      "path": "漫剧/短剧工具/skills/minimax-h3-video/SKILL.md",
+      "bytes": 8454,
+      "sha256": "21bf1c1d39a58161bcfdacf7dabf3afc2daa58bb5e4a27f6ce3028087a1402a7"
+    },
+    {
+      "path": "漫剧/短剧工具/skills/nexorai-image/scripts/nexorai_image.py",
+      "bytes": 36582,
+      "sha256": "532271f88acd1fd5a28b9b8da8c068a5650a157dfa84fb089bc0ea9eb02086e9"
+    },
+    {
+      "path": "漫剧/短剧工具/skills/nexorai-image/scripts/test_nexorai_image.py",
+      "bytes": 24836,
+      "sha256": "1a55e2f0b83943e6539aa1b77d9783e91a975acb8fbb2e65cd6039883e2c2bfe"
+    },
+    {
+      "path": "漫剧/短剧工具/skills/nexorai-image/SKILL.md",
+      "bytes": 6940,
+      "sha256": "c7e7a28646c722550b9330ba9ccc6290be855ce6b3e737d3caea115e70375a1e"
+    },
+    {
+      "path": "漫剧/短剧工具/tools/acceptance_jobs.py",
+      "bytes": 23547,
+      "sha256": "b183d5a1c0a5a3e06b490893d931b55c57fd13c1fba2b2070df9da948d3a9af5"
+    },
+    {
+      "path": "漫剧/短剧工具/tools/audio/align.py",
+      "bytes": 17265,
+      "sha256": "018316c4ec349cbf76e6f95452743a31ae9b3724584c64027ea6d73a76a3921c"
+    },
+    {
+      "path": "漫剧/短剧工具/tools/audio/assemble.py",
+      "bytes": 42008,
+      "sha256": "a828036753c8d3f9b15db8b9a66be987ec63d42a4166fc05f3383f3a481d236f"
+    },
+    {
+      "path": "漫剧/短剧工具/tools/audio/delivery_checks.py",
+      "bytes": 6650,
+      "sha256": "b44221dc616195a025065425c36e2ae8a627b6a1baa66604f37a0f2219a6ed55"
+    },
+    {
+      "path": "漫剧/短剧工具/tools/audio/narrate.py",
+      "bytes": 25815,
+      "sha256": "5f5da6cf58a67a968f27439a3648097f175b07415933ebcc81254e9566b86be7"
+    },
+    {
+      "path": "漫剧/短剧工具/tools/audio/test_align.py",
+      "bytes": 11624,
+      "sha256": "a1d6ff39ecaafa81252efa98ef084e6596bb3cac88b7269649cf2bb5523b4732"
+    },
+    {
+      "path": "漫剧/短剧工具/tools/audio/test_assemble.py",
+      "bytes": 8064,
+      "sha256": "0d551bd57b3653c68cfdd6a617cae360e3b641181d2a16ea6e0a4a75dc7e4a49"
+    },
+    {
+      "path": "漫剧/短剧工具/tools/audio/test_assemble_levels.py",
+      "bytes": 3863,
+      "sha256": "bddd666067766b42b7975b98e03e75e76042d51d2b50bf225561aa2c69aabb2f"
+    },
+    {
+      "path": "漫剧/短剧工具/tools/audio/test_delivery_checks.py",
+      "bytes": 6741,
+      "sha256": "6a93aad987adbbfde267f2719cc7223cffb966fa5cda45db83aa6dcb863221b8"
+    },
+    {
+      "path": "漫剧/短剧工具/tools/audio/test_edit_plan.py",
+      "bytes": 3361,
+      "sha256": "702bf89c80a224e8a4ef91d537524daf8b59d6cde811a757f24541d7f1049ae1"
+    },
+    {
+      "path": "漫剧/短剧工具/tools/audio/test_narrate.py",
+      "bytes": 17512,
+      "sha256": "fb6749330228595bf8f97118fcce2394bdd50a566308eee7c899a7ee0d2a20f2"
+    },
+    {
+      "path": "漫剧/短剧工具/tools/audio/test_postproduction.py",
+      "bytes": 4618,
+      "sha256": "83dc778afa2a99fd36600290403c19b1bfc0ad16ab26c599063e7d5902adf976"
+    },
+    {
+      "path": "漫剧/短剧工具/tools/audio/test_postproduction_media.py",
+      "bytes": 10483,
+      "sha256": "c06396f2eb541eedd436f821eba644df4230eb379aad7478172a4b8642eae321"
+    },
+    {
+      "path": "漫剧/短剧工具/tools/audio/test_sync_integrity_media.py",
+      "bytes": 5376,
+      "sha256": "cf375855709747d4207df9b4f0dff8f05aace6163ea5241b154b5a9e3b997085"
+    },
+    {
+      "path": "漫剧/短剧工具/tools/authorized_cli.py",
+      "bytes": 11526,
+      "sha256": "7963a22a54ad1d3022aeab2370c8fc0eb9b2ada14f611dbfa405ea885fda9863"
+    },
+    {
+      "path": "漫剧/短剧工具/tools/CANVAS_NOTIFICATION.md",
+      "bytes": 3942,
+      "sha256": "06d5ce938bde58643136ac1b99c503f8352f702132627df03ceb6f5c63067e9f"
+    },
+    {
+      "path": "漫剧/短剧工具/tools/canvas_notify.py",
+      "bytes": 20571,
+      "sha256": "da272ecb7f6dbf2b96b1f74a753909208f755db8473a114517f751fa864f5605"
+    },
+    {
+      "path": "漫剧/短剧工具/tools/canvas_notify_controller.js",
+      "bytes": 4727,
+      "sha256": "dcf36ac74368259054734c6ab459e001e2b95ce3756ceb8a0576b62c3e11fe1a"
+    },
+    {
+      "path": "漫剧/短剧工具/tools/CANVAS_REVIEW.md",
+      "bytes": 18986,
+      "sha256": "7a6ba6a71da98cab70b3d96c82eaca177f7bf7deb37192329645318fe375a0d2"
+    },
+    {
+      "path": "漫剧/短剧工具/tools/canvas_review.py",
+      "bytes": 42639,
+      "sha256": "78e85373074067ee01619e1135bff9c0481162e053c019ce06cc14026c2e5227"
+    },
+    {
+      "path": "漫剧/短剧工具/tools/cli_proposal_sink.py",
+      "bytes": 9126,
+      "sha256": "8feb78998174e1c75e933b83087ae1323df033c145ea9e13e2e3851a6497c9f0"
+    },
+    {
+      "path": "漫剧/短剧工具/tools/codex_app_receipts.py",
+      "bytes": 3837,
+      "sha256": "f0895f1baa04b7364e35f59472cfb97a03980806842811cc94368ce071cd6d64"
+    },
+    {
+      "path": "漫剧/短剧工具/tools/codex_cli.py",
+      "bytes": 17209,
+      "sha256": "5182a548ba16b775fb9d5e6795e3972c8dda892389cef1d3d9aa42f75abb428f"
+    },
+    {
+      "path": "漫剧/短剧工具/tools/codex_jobs.py",
+      "bytes": 11755,
+      "sha256": "044214535abd40f0dbfa6ba0b9ee2290602a1b2e52eaa8804ce15de5b91ea13c"
+    },
+    {
+      "path": "漫剧/短剧工具/tools/codex_materials.py",
+      "bytes": 7656,
+      "sha256": "e44837cafc10a17ca0e7e2107f4a08a592e1a38d527463657f14e6426ca6b5bf"
+    },
+    {
+      "path": "漫剧/短剧工具/tools/CODEX_WORKFLOW.md",
+      "bytes": 4023,
+      "sha256": "f5ea816659ecd208160eee9e9856752998aaaa7cb596f9e9692ffe42b124b716"
+    },
+    {
+      "path": "漫剧/短剧工具/tools/codex_workflow.py",
+      "bytes": 25333,
+      "sha256": "ea1f9d06f97350d4f8d1e659f1026658ba19087eac56a9122371585c73d1a36a"
+    },
+    {
+      "path": "漫剧/短剧工具/tools/CODEX_WORKFLOW_HISTORY.md",
+      "bytes": 15864,
+      "sha256": "99f66f9ce15cfeed89b368cbf5aa342969ca3b9d6c6c3ae0471d530ccb421b7f"
+    },
+    {
+      "path": "漫剧/短剧工具/tools/dryrun/asr_smoke.py",
+      "bytes": 4150,
+      "sha256": "e5077fb010e32389fa98fe5bb2c4ab8da748dc022c3d80dd3b3865db074f372f"
+    },
+    {
+      "path": "漫剧/短剧工具/tools/dryrun/fixtures.py",
+      "bytes": 6401,
+      "sha256": "8930bccd0ca8689ddaeb4176d58e1554bc03002e09b27cc3adb49bace58fb17c"
+    },
+    {
+      "path": "漫剧/短剧工具/tools/dryrun/mock_services.py",
+      "bytes": 8341,
+      "sha256": "5c137eaf29de1a5fe1eb57736b1eefad8b85498e999aeff29eca73f307add125"
+    },
+    {
+      "path": "漫剧/短剧工具/tools/dryrun/README.md",
+      "bytes": 4648,
+      "sha256": "9302c500eba0f4ce066f8557ef3c1751318e0c7406790af6db3cb0935a93a279"
+    },
+    {
+      "path": "漫剧/短剧工具/tools/dryrun/run_dryrun.py",
+      "bytes": 22793,
+      "sha256": "3299ad642cabb622bf03e3ef2440a140e6c22f44a2fdaac36e72a1173f3d378d"
+    },
+    {
+      "path": "漫剧/短剧工具/tools/dryrun/test_dryrun.py",
+      "bytes": 3914,
+      "sha256": "b6430cbb45c3e896b38e9f587c4218df847858184eac3640eefe1ac6109789c6"
+    },
+    {
+      "path": "漫剧/短剧工具/tools/ending_frame.py",
+      "bytes": 5763,
+      "sha256": "b1608d408601548d3cba0f7590af434de9c2410036cf54e448f5c4d9e046af16"
+    },
+    {
+      "path": "漫剧/短剧工具/tools/execution_limits.py",
+      "bytes": 8895,
+      "sha256": "bf002244dcb5f06a574c516ac790da24774f1bf8f742b54870918bc6e8a949c9"
+    },
+    {
+      "path": "漫剧/短剧工具/tools/export_portable.py",
+      "bytes": 6843,
+      "sha256": "3bcc365aaa76d0058155409699158030af8a9119168b11fc21f908b6f7d11cab"
+    },
+    {
+      "path": "漫剧/短剧工具/tools/generation_runtime.py",
+      "bytes": 14623,
+      "sha256": "f50264273a0406de06d0f1fd4682e3e1ecbaaa67bf73ec38b8fce573792fbf89"
+    },
+    {
+      "path": "漫剧/短剧工具/tools/H3_EXECUTION_CHECKS.md",
+      "bytes": 10322,
+      "sha256": "3edef745a8249b3280da228a5e381c61c5bbe64d2a82e0d04f38391cbb44cb0a"
+    },
+    {
+      "path": "漫剧/短剧工具/tools/h3_execution_checks.py",
+      "bytes": 49909,
+      "sha256": "c2e53cf60364f7195348fe36f7436191ac39fb954e6a9f768e038134cda7058d"
+    },
+    {
+      "path": "漫剧/短剧工具/tools/lessons.py",
+      "bytes": 39162,
+      "sha256": "1f05d3aa2b7b01fae3315cdf2461fa277efbe7faed4e03477607ea9dd9186207"
+    },
+    {
+      "path": "漫剧/短剧工具/tools/make_sample_project.py",
+      "bytes": 8710,
+      "sha256": "27427c9bdef5dba7da08c8e2c7d63e0bc62714f0a933944d547f29e83a694f00"
+    },
+    {
+      "path": "漫剧/短剧工具/tools/pipeline_state.py",
+      "bytes": 32274,
+      "sha256": "aa6794b003c7fef4806365e256c14bfaf3ca8c820dd66f9f6ca697886db24932"
+    },
+    {
+      "path": "漫剧/短剧工具/tools/portable/doctor.py",
+      "bytes": 2230,
+      "sha256": "922c5dc4d16be343460cbfe155e694a8879b923f745f1356454561a282ccc2c6"
+    },
+    {
+      "path": "漫剧/短剧工具/tools/portable/README.md",
+      "bytes": 6239,
+      "sha256": "c850475dc81b6474bfec6637c003094c54c04f9a4ac1860d0ef1ab48e7dcb857"
+    },
+    {
+      "path": "漫剧/短剧工具/tools/portable/verify_export.py",
+      "bytes": 4056,
+      "sha256": "827f9f997bf91f2054662f2f48537526193163aa3a6251bbe520e9b22de8b9a5"
+    },
+    {
+      "path": "漫剧/短剧工具/tools/project_rules.py",
+      "bytes": 6109,
+      "sha256": "0b4385a65b4d642596a9500011878b7cb5f82c644008ce54e9bbafc104398180"
+    },
+    {
+      "path": "漫剧/短剧工具/tools/proposal_sink.py",
+      "bytes": 12457,
+      "sha256": "51ebe0327d5e3bee26115b1bd06f4a5c373fbfbaece5c561aad9056c37761cab"
+    },
+    {
+      "path": "漫剧/短剧工具/tools/run_codex_checks.py",
+      "bytes": 4341,
+      "sha256": "dffbfd66d9d308e55fb94c76c6a165d779f521d7c09c5e0ba52cd4472ade498f"
+    },
+    {
+      "path": "漫剧/短剧工具/tools/run_offline_checks.py",
+      "bytes": 3763,
+      "sha256": "2785e167b1b796f22332616de6e80a20b0c6a8c554682ac903a78f51fb652cd6"
+    },
+    {
+      "path": "漫剧/短剧工具/tools/SHOT_CONTEXT.md",
+      "bytes": 5376,
+      "sha256": "63db407ae7309c18e9f775d3fa2d4316407105b70def03c6d12d193e37c36fbd"
+    },
+    {
+      "path": "漫剧/短剧工具/tools/shot_context.py",
+      "bytes": 10225,
+      "sha256": "47bd74fa3c50f2374b369b21b0ecf383750ec69b0d91c0bb5dfb8e4a8ae11a6b"
+    },
+    {
+      "path": "漫剧/短剧工具/tools/test_acceptance_jobs.py",
+      "bytes": 6549,
+      "sha256": "0835daa05d236808de11810fe477734a6acb1d79f115d8d9619d21ff67a48233"
+    },
+    {
+      "path": "漫剧/短剧工具/tools/test_authorized_cli.py",
+      "bytes": 6532,
+      "sha256": "1a76cce60ab85a34947676a3020f328ed51309d9a2c34f76bb6b23e2ddf60574"
+    },
+    {
+      "path": "漫剧/短剧工具/tools/test_authorized_revoice.py",
+      "bytes": 6556,
+      "sha256": "bafb42d78f2f201e963040a9404a4cceb714f1e16c2daf1ba774b8de5ab210ad"
+    },
+    {
+      "path": "漫剧/短剧工具/tools/test_bots_skills.py",
+      "bytes": 5633,
+      "sha256": "b59d3532946c7929b553306eceedc3f4d810f13feaecb1e1d82968e8ef72a825"
+    },
+    {
+      "path": "漫剧/短剧工具/tools/test_cli_proposal_sink.py",
+      "bytes": 15074,
+      "sha256": "e9c82024b85adb5234767892d5aacc997d234a2fef3bf431ec4eb5eeb9169eaa"
+    },
+    {
+      "path": "漫剧/短剧工具/tools/test_codex_app_receipts.py",
+      "bytes": 5504,
+      "sha256": "ab2563351407d38da13487347f16c1cf0ea27aa39fbd7674e6c0c5abfbde5e0d"
+    },
+    {
+      "path": "漫剧/短剧工具/tools/test_codex_workflow.py",
+      "bytes": 36325,
+      "sha256": "82596a4e30c844c067b994488286e25b0346972a3d0640ea92769acabc5e4f49"
+    },
+    {
+      "path": "漫剧/短剧工具/tools/test_execution_limits.py",
+      "bytes": 7334,
+      "sha256": "8ee8dda0e1f4d1ca45ab77f7e6e50e0d1c2d083a6033071875664e3a295f3f6c"
+    },
+    {
+      "path": "漫剧/短剧工具/tools/test_generation_regressions.py",
+      "bytes": 18425,
+      "sha256": "b84147b0fe49c320d459f5cb23a67271671acf4b846145ed5b8176a52922d42b"
+    },
+    {
+      "path": "漫剧/短剧工具/tools/test_h3_billing_contract.py",
+      "bytes": 4882,
+      "sha256": "cb8c92d0acd3c0a9aadbbd6b783b4532fe7ec3e600d1a37a60cefc7f2f441393"
+    },
+    {
+      "path": "漫剧/短剧工具/tools/test_h3_execution_checks.py",
+      "bytes": 32506,
+      "sha256": "3bfcdec9a271d85385f85b01c669c850570eaefdb43ef18245321faf008b978d"
+    },
+    {
+      "path": "漫剧/短剧工具/tools/test_lessons.py",
+      "bytes": 13248,
+      "sha256": "7f8157d63e0b2849a8d1475a00bee0304b9ea12628800f02c2396699e0d48b42"
+    },
+    {
+      "path": "漫剧/短剧工具/tools/test_lessons_transactions.py",
+      "bytes": 20427,
+      "sha256": "0e5372079d394d9e48432da96d6c721a7e9b9b9b25bf59b0dd4c38dbf1264eb1"
+    },
+    {
+      "path": "漫剧/短剧工具/tools/test_project_rules.py",
+      "bytes": 7701,
+      "sha256": "332f6b9c18fff588e72a04076bce9637179a68acd4cb395ac9cb243efe2c5d3f"
+    },
+    {
+      "path": "漫剧/短剧工具/tools/test_proposal_sink.py",
+      "bytes": 9984,
+      "sha256": "4223443cb4a63f1e1aeb0da63d210b6cd1210dd14e0f3b8186f8a557c8d0a6a2"
+    },
+    {
+      "path": "漫剧/短剧工具/tools/test_shot_context.py",
+      "bytes": 7805,
+      "sha256": "4fec9c90c9394a1515c7077d2a3805252f56bbee125af0ba8ec017f38eb49d4e"
+    },
+    {
+      "path": "漫剧/短剧工具/tools/test_tools.py",
+      "bytes": 35271,
+      "sha256": "130f396e1b6fd45c9b9a6e0685b0bf44e84319c8de52b45b26c7e7842996781d"
+    },
+    {
+      "path": "漫剧/短剧工具/tools/test_voice_lifecycle.py",
+      "bytes": 9562,
+      "sha256": "6fcf95eb93b837818540ac4bc8fde96702f21871d70d82ca94b140ae472620f6"
+    },
+    {
+      "path": "漫剧/短剧工具/tools/test_voice_readiness.py",
+      "bytes": 5115,
+      "sha256": "d10f69c5eda185d44901a4d96d9397c042aaa1fb921f5f83afbec737f8ad5683"
+    },
+    {
+      "path": "漫剧/短剧工具/tools/test_wait_generation.py",
+      "bytes": 4335,
+      "sha256": "1862655d57c46aaab071f0ccd0e68893deec10ded702d37c1f6e733b05bd381f"
+    },
+    {
+      "path": "漫剧/短剧工具/tools/validate_project.py",
+      "bytes": 24513,
+      "sha256": "6fe971928734c84bdf8547544823a6ce68feeab4ec0794feaed74e842592d45a"
+    },
+    {
+      "path": "漫剧/短剧工具/tools/VOICE_CLOSEOUT.md",
+      "bytes": 4801,
+      "sha256": "7d1d99ac5ccd1e6181d42094bdeae3a69e1e0dddb5b722ce1f61cd2b83371d6f"
+    },
+    {
+      "path": "漫剧/短剧工具/tools/voice_lifecycle.py",
+      "bytes": 12943,
+      "sha256": "140562e4d06ed75a96b5365cc88746b70b04aac8c940d776fe9e678d4b19edcd"
+    },
+    {
+      "path": "漫剧/短剧工具/tools/voice_readiness.py",
+      "bytes": 10428,
+      "sha256": "bdde620ea77e0a56dd84507138712c276b0316140a79823d957d6703f5e5a2da"
+    },
+    {
+      "path": "漫剧/短剧工具/tools/wait_generation.py",
+      "bytes": 5424,
+      "sha256": "21debe0b250272a7da3e85e051552bd008479de531645a5b880d4d10f3064b5f"
+    },
+    {
+      "path": "漫剧/短剧工具/参考文档/使用NexorAI生成图片.md",
+      "bytes": 9156,
+      "sha256": "85ebdfc0e75204f9d07fb4b45597aa747c3dd72ebda04316fc94f78cca57b595"
+    },
+    {
+      "path": "漫剧/短剧工具/数据规范-v2.md",
+      "bytes": 32203,
+      "sha256": "2f1b3d4b568d74404ef313a24c5bc34f653c5790e2f7e57e9b09965f8be6ca5a"
+    },
+    {
+      "path": "漫剧/短剧工具/设计文档.md",
+      "bytes": 87718,
+      "sha256": "6c640a788cc3d7da3cab963d78a46dfb4f505e43cd8b9e8e286a3021301dc127"
+    },
+    {
+      "path": "漫剧/短剧工具/调研/H3技能调研记录.md",
+      "bytes": 7061,
+      "sha256": "37260acbe5444e80a33443dace5716fa1dcf2f59e20443c6baa7a12d33d9778e"
+    },
+    {
+      "path": "漫剧/短剧工具/调研/NexorAI生图模型调研.md",
+      "bytes": 7173,
+      "sha256": "af5b3a2fb1fde0d5010b91897a6b0ac6340efa70aecb3ce668f3f8a38eb8b0d9"
+    },
+    {
+      "path": "漫剧/短剧工具/调研/open-pose-costume接入评估.md",
+      "bytes": 7774,
+      "sha256": "d8fa34b5f998ff91de8db4e947c76379e6e25404d7e74e8b043cdf0cf867e3c4"
+    },
+    {
+      "path": "漫剧/短剧工具/调研/镜头资料与多题材适配分析.md",
+      "bytes": 12706,
+      "sha256": "4a5c060e1842f54819c27fe5d0a707bb69a9909fafa1751b724728ea33410886"
+    },
+    {
+      "path": "漫剧/短剧工具/镜头语言手册.md",
+      "bytes": 11217,
+      "sha256": "69759a4055efe13bd23a8617caa0cf50dd35356e6e0dd3e95b088422e380a9a4"
+    },
+    {
+      "path": "漫剧/经验库.md",
+      "bytes": 298,
+      "sha256": "457943f48b3ba5f625005fedddbbd3396dad9494aeaf41968f39245a6b52c552"
+    },
+    {
+      "path": "部署说明.md",
+      "bytes": 6239,
+      "sha256": "c850475dc81b6474bfec6637c003094c54c04f9a4ac1860d0ef1ab48e7dcb857"
+    }
+  ]
+}

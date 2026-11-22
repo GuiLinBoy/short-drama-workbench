@@ -1,0 +1,22 @@
+{
+  "name": "manju-canvas",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "python -I -X utf8 server.py",
+    "build": "vite build",
+    "test:local": "python -I -X utf8 -m unittest discover -s . -p test_*.py -v",
+    "test:canvas": "node --test tests/canvas-model.test.mjs tests/canvas-reviews.test.mjs tests/canvas-layout.test.mjs tests/review-model.test.mjs tests/review-content.test.mjs tests/notification-controller.test.mjs tests/snapshot-client.test.mjs tests/canvas-media.test.mjs tests/work-routes.test.mjs tests/workspace-navigation.test.mjs",
+    "install:ci": "npm install --ignore-scripts --no-audit --no-fund"
+  },
+  "dependencies": {
+    "@xyflow/react": "12.6.0",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "4.4.1",
+    "vite": "6.3.5"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "h3": {
+    "max_running_tasks": 3
+  },
+  "nexorai": {
+    "images_cap_per_day": 50,
+    "images_per_batch": 12,
+    "max_running": 2
+  },
+  "active_projects_max": 3
+}

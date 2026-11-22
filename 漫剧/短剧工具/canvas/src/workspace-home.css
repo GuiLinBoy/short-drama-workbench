@@ -1,0 +1,37 @@
+/* The library is an independent entrance; the sidebar belongs to one work. */
+.library-home .main-shell{margin-left:0;width:100%;padding-bottom:0}
+.library-home main{max-width:1480px;padding:34px 36px 48px}
+.library-home .topbar{min-height:68px;height:auto;padding:14px clamp(20px,4vw,60px);gap:20px;flex-wrap:wrap}
+.home-brand{display:inline-flex;align-items:center;gap:12px;color:var(--ink);font-size:20px;font-weight:600;flex-shrink:0}
+.home-brand .brand-symbol{width:36px;height:38px}
+.home-brand>span:last-child{display:flex;align-items:center;gap:14px}
+.home-brand small{border-left:1px solid var(--border);padding-left:14px;color:var(--muted);font-size:13px;font-weight:400}
+.library-home .page-footer{max-width:1408px;width:calc(100% - 72px);margin:0 auto}
+.sidebar-library-link{display:flex;align-items:center;gap:10px;margin:25px 10px 0;padding:10px 8px;border-radius:7px;color:var(--muted);font-size:12px}
+.sidebar-library-link:hover{background:var(--panel2);color:var(--ink)}
+.project-workspace .workspace-label{margin-top:22px}
+.project-workspace .sidebar nav{margin-top:12px}
+.breadcrumb-project{max-width:210px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:var(--ink)}
+@media(min-width:721px) and (max-width:1600px){
+  .sidebar-library-link{justify-content:center;margin:20px 0 0;padding:12px}
+  .sidebar-library-link>span{display:none}
+}
+@media(max-width:900px){
+  .library-home .topbar-actions{gap:10px}
+  .library-home main{padding:26px 24px 36px}
+  .library-home .page-footer{width:calc(100% - 48px)}
+  .breadcrumb-project{max-width:140px}
+}
+@media(max-width:720px){
+  .library-home main{padding:24px 16px 32px}
+  .library-home .topbar{padding:12px 16px;gap:12px}
+  .library-home .topbar-actions{margin-left:auto;gap:8px;flex-wrap:wrap}
+  .library-home .page-footer{width:calc(100% - 32px)}
+  .library-home .connection{display:none}
+  .home-brand{font-size:18px;gap:8px}.home-brand small{font-size:12px;padding-left:9px}
+  .home-brand>span:last-child{gap:9px}
+  .project-workspace .sidebar-library-link{display:none}
+  .project-workspace .sidebar nav{margin:0;grid-template-columns:repeat(4,minmax(0,1fr))}
+  .project-workspace .breadcrumb{min-width:0;gap:6px}
+  .project-workspace .breadcrumb-project{max-width:105px}
+}

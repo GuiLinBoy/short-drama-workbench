@@ -1,0 +1,29 @@
+{
+  "id": "nexorai",
+  "kind": "image",
+  "api": {
+    "base": "https://api.nexorai.com.cn/v1",
+    "env_var": "NEXORAI_API_KEY",
+    "user_agent": "novel-to-video-nexorai/1.0",
+    "timeout_seconds": 290
+  },
+  "note": "priority 抄自 genres/<题材>.md 第 2 节；test_nexorai_image.py 会核对两边一致。用途：reference=文字生图（角色视频参考图、道具图），edit=带参考图改图（衍生形态、三视图），scene=场景图",
+  "genre_alias": {"urban": "live-action"},
+  "priority": {
+    "3d-guoman": {
+      "reference": ["grok-imagine-image-quality", "gpt-image-2.5-sunburst", "grok-imagine-image-2.0"],
+      "edit": ["grok-imagine-image-quality", "grok-imagine-image-2.0", "gpt-image-2.5"],
+      "scene": ["grok-imagine-image-quality", "grok-imagine-image-2.0", "gpt-image-2.5-sunburst"]
+    },
+    "live-action": {
+      "reference": ["grok-imagine-image-2.0", "gpt-image-2.5", "grok-imagine-image-quality"],
+      "edit": ["grok-imagine-image-2.0", "gpt-image-2.5", "grok-imagine-image-quality"],
+      "scene": ["grok-imagine-image-2.0", "gpt-image-2.5-sunburst", "grok-imagine-image-quality"]
+    }
+  },
+  "gpt_sizes": {"9:16": "864x1536", "3:4": "1024x1536", "1:1": "1024x1024"},
+  "gpt_size_note": "GPT 的 size 不可靠（请求 864x1536 实际返回 1024x1536），以解码后的真实尺寸为准再裁切；横图比例不可控（调研 §2.3），所以 GPT 只用于竖图和方图",
+  "crop": {"max_loss": 0.16, "note": "严格比例差得不多时居中裁切；裁掉超过 16% 就不交付，要重新构图"},
+  "max_images_per_request": 2,
+  "max_references": 4
+}
