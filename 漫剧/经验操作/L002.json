@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "phase": "committed",
+  "date": "2026-11-25",
+  "id": "L002",
+  "kind": "add",
+  "source": "大老爷们怀胎记/EP001/Clip00003",
+  "confirm": "需要",
+  "evidence": null,
+  "primary": {
+    "path": "短剧工具/镜头语言手册.md",
+    "table": "normal",
+    "key": "L002",
+    "before": null,
+    "after": "| L002 | 2026-11-25 | 大老爷们怀胎记/EP001/Clip00003 | 在summary中写入跨段剧情叙述（如“把从前怼自己的原话一字不差甩了回去”）且片头留2.2秒静默时，H3无法理解上段剧情并将summary叙述文字直接误读出声。 | 严格执行单段自足铁律：summary与镜头描述严禁出现跨段引用词（从前/刚才/上一段/原话）与编剧心理评论，只写镜头可见动作表情与麦克风可听原话/音效；有对白段片头静默控制在1.5秒内。 | 观察 | 1 |"
+  },
+  "changes": [
+    {
+      "path": "短剧工具/镜头语言手册.md",
+      "before_hash": "8a69420e8f982e0206573e3903bca6280abf5828a7a0955584d57261a66c0690",
+      "after_hash": "092f110934b223339543396b34bd5dd70b17ea7883c2f430b44c898a636f9047",
+      "edits": [
+        {
+          "offset": 5887,
+          "before": "",
+          "after": "| L002 | 2026-11-25 | 大老爷们怀胎记/EP001/Clip00003 | 在summary中写入跨段剧情叙述（如“把从前怼自己的原话一字不差甩了回去”）且片头留2.2秒静默时，H3无法理解上段剧情并将summary叙述文字直接误读出声。 | 严格执行单段自足铁律：summary与镜头描述严禁出现跨段引用词（从前/刚才/上一段/原话）与编剧心理评论，只写镜头可见动作表情与麦克风可听原话/音效；有对白段片头静默控制在1.5秒内。 | 观察 | 1 |\n"
+        }
+      ],
+      "baseline": {
+        "repo": "/Users/xiaoguotongzhi/project/漫剧制作/短剧制作工作台/漫剧/短剧工具",
+        "head": null,
+        "clean": false
+      }
+    },
+    {
+      "path": "经验库.md",
+      "before_hash": "2302df16d3db8644e443ac2f2f14b97e09bdd4b5e0e1272070a9d84d79f63809",
+      "after_hash": "731373453c5f9d376fbc0353dd89817381cc4a16c368b27c02a25806874a6f8a",
+      "edits": [
+        {
+          "offset": 473,
+          "before": "",
+          "after": "| L002 | 2026-11-25 | 大老爷们怀胎记/EP001/Clip00003 | 短剧工具/镜头语言手册.md | 在summary中写入跨段剧情叙述（如“把从前怼自己的原话一字不差甩了回去”）且片头留2.2秒静默时，H3无法理解上段剧情并将summary叙述文字直接误读出声。 | 观察 | 需要 | 见经验操作/L002.json |\n"
+        }
+      ],
+      "baseline": {
+        "repo": "/Users/xiaoguotongzhi/project/漫剧制作/短剧制作工作台/漫剧",
+        "head": null,
+        "clean": false
+      }
+    }
+  ],
+  "registry_changes": []
+}

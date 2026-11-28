@@ -21,7 +21,7 @@ The target video is live-action and cinematic, with natural skin texture, realis
 |---|---|---|---|
 | 角色视频参考图 | `grok-imagine-image-2.0` | `gpt-image-2.5` | `grok-imagine-image-quality` |
 | 衍生形态、三视图（改图） | `grok-imagine-image-2.0` | `gpt-image-2.5` | `grok-imagine-image-quality` |
-| 场景图 | `grok-imagine-image-2.0` | `gpt-image-2.5-sunburst`（仅竖图） | `grok-imagine-image-quality` |
+| 场景图 | `grok-imagine-image-2.0` | `gpt-image-2.5` | `grok-imagine-image-quality` |
 
 理由：实测中 `grok-imagine-image-2.0` 的写实感和光影最好（`调研/NexorAI生图模型调研.md`）。这只是基于一次文字生图的初步排序，**要在统一验证时用写实提示词复测**。
 

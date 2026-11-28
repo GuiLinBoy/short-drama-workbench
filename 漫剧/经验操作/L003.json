@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "phase": "committed",
+  "date": "2026-11-25",
+  "id": "L003",
+  "kind": "add",
+  "source": "大老爷们怀胎记/EP001/成片_EP001-配乐对比A-TeaRoots+Weasel-v002",
+  "confirm": "需要",
+  "evidence": null,
+  "primary": {
+    "path": "短剧工具/skill/references/post-production.md",
+    "table": "normal",
+    "key": "L003",
+    "before": null,
+    "after": "| L003 | 2026-11-25 | 大老爷们怀胎记/EP001/成片_EP001-配乐对比A-TeaRoots+Weasel-v002 | 反转喜剧短剧全程单曲垫底易压弱纯音效爆点与情绪转折；按剧情幕次切歌并在社死纯音效段急停留白后，节奏张力与喜剧反差显著增强。 | 反转喜剧后期优先按剧情幕次制作分段卡点配乐轨（如古风铺垫→轻快揭秘→纯音效爆点处0.15s急停留白让出原声→尾声欢快接回），所有源曲均须核验CC-BY 4.0等商用许可并登记曲库后再经assemble.py统一响度与对白闪避。 | 观察 | 1 |"
+  },
+  "changes": [
+    {
+      "path": "短剧工具/skill/references/post-production.md",
+      "before_hash": "f223253987362ecb1bd49473eb9e1f37cc8fac1080ef815065df823f0d7d90c2",
+      "after_hash": "9c044f3ee48b2427d2ffbeb4c2e9a31cf5a059eee86e94e4cae4ad0fdd8cc624",
+      "edits": [
+        {
+          "offset": 4830,
+          "before": "",
+          "after": "| L003 | 2026-11-25 | 大老爷们怀胎记/EP001/成片_EP001-配乐对比A-TeaRoots+Weasel-v002 | 反转喜剧短剧全程单曲垫底易压弱纯音效爆点与情绪转折；按剧情幕次切歌并在社死纯音效段急停留白后，节奏张力与喜剧反差显著增强。 | 反转喜剧后期优先按剧情幕次制作分段卡点配乐轨（如古风铺垫→轻快揭秘→纯音效爆点处0.15s急停留白让出原声→尾声欢快接回），所有源曲均须核验CC-BY 4.0等商用许可并登记曲库后再经assemble.py统一响度与对白闪避。 | 观察 | 1 |\n"
+        }
+      ],
+      "baseline": {
+        "repo": "/Users/xiaoguotongzhi/project/漫剧制作/短剧制作工作台/漫剧/短剧工具",
+        "head": null,
+        "clean": false
+      }
+    },
+    {
+      "path": "经验库.md",
+      "before_hash": "731373453c5f9d376fbc0353dd89817381cc4a16c368b27c02a25806874a6f8a",
+      "after_hash": "9123e4349713029ecc7fcf56c50566ebc2dcaa98b7e639fde2ea9d6f7be5966f",
+      "edits": [
+        {
+          "offset": 650,
+          "before": "",
+          "after": "| L003 | 2026-11-25 | 大老爷们怀胎记/EP001/成片_EP001-配乐对比A-TeaRoots+Weasel-v002 | 短剧工具/skill/references/post-production.md | 反转喜剧短剧全程单曲垫底易压弱纯音效爆点与情绪转折；按剧情幕次切歌并在社死纯音效段急停留白后，节奏张力与喜剧反差显著增强。 | 观察 | 需要 | 见经验操作/L003.json |\n"
+        }
+      ],
+      "baseline": {
+        "repo": "/Users/xiaoguotongzhi/project/漫剧制作/短剧制作工作台/漫剧",
+        "head": null,
+        "clean": false
+      }
+    }
+  ],
+  "registry_changes": []
+}

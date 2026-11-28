@@ -18,7 +18,7 @@
     "live-action": {
       "reference": ["grok-imagine-image-2.0", "gpt-image-2.5", "grok-imagine-image-quality"],
       "edit": ["grok-imagine-image-2.0", "gpt-image-2.5", "grok-imagine-image-quality"],
-      "scene": ["grok-imagine-image-2.0", "gpt-image-2.5-sunburst", "grok-imagine-image-quality"]
+      "scene": ["grok-imagine-image-2.0", "gpt-image-2.5", "grok-imagine-image-quality"]
     }
   },
   "gpt_sizes": {"9:16": "864x1536", "3:4": "1024x1536", "1:1": "1024x1024"},
